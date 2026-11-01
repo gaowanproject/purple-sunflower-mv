@@ -1,0 +1,37 @@
+# Generated / large files — never commit these
+out/
+plates/
+*.blend
+*.blend1
+__pycache__/
+*.pyc
+.cache/
+comp/cache/
+
+# Third-party binaries
+tools/ffmpeg.exe
+tools/ffmpeg.zip
+tools/ffprobe.exe
+
+# Fonts (downloaded by assets/fonts/dl_fonts.py — OFL, but keep the repo small)
+assets/fonts/*.ttf
+assets/fonts/*.otf
+
+# Audio: copyrighted material, never commit
+assets/audio/*.mp3
+assets/audio/*.wav
+assets/audio/*.m4a
+assets/audio/*.flac
+
+# Lyrics: copyrighted text, never commit
+story/*.lrc
+story/translation.txt
+story/lyrics.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# auto-generated from lyrics at composite time (contains lyric text)
+comp/lyrics_layout.json
