@@ -4,6 +4,16 @@
 
 **English** — A complete music video for the Japanese song *"Purple Sunflower" (紫色の向日葵)* by 香椎モイミ feat. 羽累. Everything — concept, 57-shot storyboard, procedural Blender scenes, per-frame compositing, bilingual lyric typography — was produced by an AI agent team. This repo contains the full production pipeline (Blender + Python + FFmpeg), not the copyrighted music/lyrics.
 
+## ⬇️ 看成片
+
+**[▶ 下载 / 观看成片 v1.0.0（Release）](https://github.com/gaowanproject/purple-sunflower-mv/releases/tag/v1.0.0)**
+
+| Release 附件 | 说明 |
+|---|---|
+| [`purple_sunflower_MV_1080p.mp4`](https://github.com/gaowanproject/purple-sunflower-mv/releases/download/v1.0.0/purple_sunflower_MV_1080p.mp4) | 成片 1920×1080 / 24fps / 179.8 MB |
+| [`purple_sunflower_MV_preview360p.mp4`](https://github.com/gaowanproject/purple-sunflower-mv/releases/download/v1.0.0/purple_sunflower_MV_preview360p.mp4) | 360p 低码预览（13 MB） |
+| [`purple_sunflower_MV_poster.png`](https://github.com/gaowanproject/purple-sunflower-mv/releases/download/v1.0.0/purple_sunflower_MV_poster.png) | 海报帧 1920×1080 |
+
 ![poster](docs/poster.png)
 
 ---
@@ -18,7 +28,7 @@
 | 镜头 | 57 个，全程序化 3D 渲染 + 逐帧合成 |
 | 版本 | v1 |
 
-> ⚠️ **本仓库不含音频、歌词原文，也不直接分发成片** —— 音乐与歌词版权归原作者 香椎モイミ / 羽累 所有，本项目是**非商业同人二创**。成片文件请见仓库 Release（如已发布）；想要自己生成，请自备正版音源与歌词。
+> ⚠️ **本仓库的 git 历史不含音频与歌词原文** —— 音乐与歌词版权归原作者 香椎モイミ / 羽累 所有，本项目是**非商业同人二创**。成片（含音乐）只作为 Release 附件发布，可随时根据版权方要求下架；想自己生成，请自备正版音源与歌词（见 [story/README.md](story/README.md)）。
 
 | ![剧照](docs/stills/still_01.jpg) | ![剧照](docs/stills/still_02.jpg) |
 |---|---|
